@@ -20,5 +20,5 @@ You can make it public using your computer/laptop
 2. Run `npm install -g localtunnel`
 3. Run `ngrok tcp 8080` or your server port number and you will get a public URL for your server access
 4. Change the URL on `/src/config/config.js` to the URL returned by ngrok
-5. Run `lt --port 3000` or your client port number and you will get a public URL for your client access
+5. Run `lt --port 3000 --subdomain [domaincustom]` or your client port number and you will get a public URL for your client access
 6. Access the client public URL on your browser
